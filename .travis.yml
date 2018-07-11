@@ -28,6 +28,7 @@ before_install:
      fi"
 
 addons:
+  artifacts: true
   apt:
     packages:
       - qtbase5-dev
