@@ -46,6 +46,8 @@ script:
   - echo $(TRAVIS_BUILD_DIR)
   - ls ~
   - ls ~/Library/Developer/Xcode/DerivedData
+  - ls ~/Library/Developer/Xcode/DerivedData/ModuleCache
+  - ls ~/Library/Developer/Xcode/DerivedData/test-evubgeixerrraeahjamxlujpkotx
  
   
 deploy:
