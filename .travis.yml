@@ -28,7 +28,7 @@ before_install:
      fi"
 
 addons:
-  artifacts: true
+  artifacts:
     debug: true
   apt:
     packages:
@@ -41,6 +41,7 @@ addons:
 script:
   - QT_SELECT=qt5 qmake -config debug
   - make
+  - ls
  
   
 deploy:
