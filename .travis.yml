@@ -42,6 +42,10 @@ script:
   - QT_SELECT=qt5 qmake -config debug
   - make
   - ls /
+  - pwd
+  - echo $(TRAVIS_BUILD_DIR)
+  - ls ~
+  - ls ~/Library/Developer/Xcode/DerivedData
  
   
 deploy:
