@@ -29,6 +29,7 @@ before_install:
 
 addons:
   artifacts: true
+    debug: true
   apt:
     packages:
       - qtbase5-dev
@@ -40,12 +41,12 @@ addons:
 script:
   - QT_SELECT=qt5 qmake -config debug
   - make
+  - ls
   
 deploy:
   provider: releases
   api_key: $GITHUB_OAUTH_TOKEN
   skip_cleanup: true
-  on:
-    tags: true
+
       
       
