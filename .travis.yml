@@ -47,7 +47,7 @@ script:
   - ls ~
   - ls ~/Library/Developer/Xcode/DerivedData
   - ls ~/Library/Developer/Xcode/DerivedData/ModuleCache
-  - ls ~/Library/Developer/Xcode/DerivedData/test-evubgeixerrraeahjamxlujpkotx/Build
+  - ls ~/Library/Developer/Xcode/DerivedData/test-evubgeixerrraeahjamxlujpkotx/Build/Products
  
   
 deploy:
