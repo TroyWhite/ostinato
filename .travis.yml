@@ -41,7 +41,7 @@ addons:
 script:
   - QT_SELECT=qt5 qmake -config debug
   - make
-  - ls
+ 
   
 deploy:
   provider: releases
